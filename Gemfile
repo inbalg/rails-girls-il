@@ -30,10 +30,13 @@ gem "middleman-imageoptim"
 gem "closure-compiler"
 
 # for deploying to rackspace cloud
-gem "middleman-deploy"
+gem "middleman-deploy"  # TODO remove?
 
 gem 'sanitize'
 
 gem "maruku"
 
 gem "middleman-syntax"
+
+gem "puma"
+gem "rack-contrib"
